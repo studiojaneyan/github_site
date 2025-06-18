@@ -1,0 +1,7 @@
+name: "yansgithubpage"
+output_dir: "."
+navbar:
+  title: "Github Page"
+  left:
+    - text: "Home"
+      href: index.html
