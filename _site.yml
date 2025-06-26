@@ -1,7 +1,10 @@
-name: "yansgithubpage"
+name: "GitHub Site"
 output_dir: "."
 navbar:
-  title: "Github Page"
+  title: "Github Site"
   left:
     - text: "Home"
       href: index.html
+     
+    - text: "My Projects"
+      href: project.html
