@@ -13,4 +13,4 @@ RnwWeave: Sweave
 LaTeX: pdfLaTeX
 
 BuildType: Website
-WebsitePath: ~/yansgithubpage
+WebsitePath: ~/github_site
