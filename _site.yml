@@ -6,5 +6,8 @@ navbar:
     - text: "Home"
       href: index.html
      
-    - text: "My Projects"
+    - text: "Projects"
       href: project.html
+      
+    - text: "Papers"
+      href: paper.html
