@@ -1,5 +1,5 @@
 ---
-title: "My Website"
+title: "Jiajin (Jane) Yan"
 ---
 
 ```{r setup, include = FALSE}
@@ -8,15 +8,24 @@ library(tidyverse)
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Homepage
+###
+### Homepage
+###
 
-This is homepage of my website. The website is an biosketch of myself. I am a biostatistician
-at Division of Biostatistics, Karolinska Institutet. I obtained my medical degree from Xiamen University
-in 2019, and master degree in Global Health from Karolinska Institutet in 2020. I have been engaged in
-over 20 research projects and resulted in good journals. My current expertise in biostatistics
-is on Registry data management, linear regression, structural models and classification methods.
+The epistemology units in biostatistics include three aspects. 
 
-## Other online **profiles** see as below:
-  * Item 1
-  * Item 2
-  * [Item 3](http://janeyan.se)
+The first is threshold inbetween spaces. This includes classification method to objects and subjects, which is modelling probabilities to exposure and outcome in catelogs or logical catelogs. 
+
+The second is truth by most likely principle. This includes inverse probability weighting, fusion in censored or uncensored data, and misclassification bias.
+
+The third is construction of system by numbers and letters. This abstraction is a linkage to other fields where numbers and letters are also applied with meanings.
+
+
+###
+### Documents
+###
+
+  * [Biosketch]
+  * [CV]
+  * [Publications]
+  * [ArtBot](http://janeyan.se)
