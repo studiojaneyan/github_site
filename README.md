@@ -1,1 +1,3 @@
-# Jane Yan GitHub Site
+### Jane Yan GitHub Site
+
+This is the official personal website of Jane Yan.
