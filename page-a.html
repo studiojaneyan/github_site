@@ -10,7 +10,7 @@
 
 
 
-<meta name="date" content="2025-06-26" />
+<meta name="date" content="2025-07-13" />
 
 <title>Page-A</title>
 
@@ -259,7 +259,7 @@ $(document).ready(function () {
 
 
 <h1 class="title toc-ignore">Page-A</h1>
-<h4 class="date">2025-06-26</h4>
+<h4 class="date">2025-07-13</h4>
 
 </div>
 
@@ -274,22 +274,32 @@ class="uri">http://rmarkdown.rstudio.com</a>.</p>
 generated that includes both content as well as the output of any
 embedded R code chunks within the document. You can embed an R code
 chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00</code></pre>
+<pre class="r"><code>library(tidyverse)
+library(ggplot2)
+library(palmerpenguins)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;palmerpenguins&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:datasets&#39;:
+## 
+##     penguins, penguins_raw</code></pre>
+<pre class="r"><code>data(&quot;penguins&quot;)
+str(penguins)</code></pre>
+<pre><code>## tibble [344 × 8] (S3: tbl_df/tbl/data.frame)
+##  $ species          : Factor w/ 3 levels &quot;Adelie&quot;,&quot;Chinstrap&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ island           : Factor w/ 3 levels &quot;Biscoe&quot;,&quot;Dream&quot;,..: 3 3 3 3 3 3 3 3 3 3 ...
+##  $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...
+##  $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...
+##  $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...
+##  $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...
+##  $ sex              : Factor w/ 2 levels &quot;female&quot;,&quot;male&quot;: 2 1 1 NA 1 2 1 2 NA NA ...
+##  $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...</code></pre>
 </div>
 <div id="including-plots" class="section level2">
 <h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="page-a_files/figure-html/pressure-1.png" width="672" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the
-code chunk to prevent printing of the R code that generated the
-plot.</p>
+<pre><code>## Warning: Removed 2 rows containing missing
+## values or values outside the scale
+## range (`geom_point()`).</code></pre>
+<p><img src="page-a_files/figure-html/ggplot%20for%20penguin%20data%20visualization-1.png" width="672" /></p>
 </div>
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Jiajin (Jane) Yan"
+title: " "
 ---
 
 ```{r setup, include = FALSE}
@@ -9,23 +9,23 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ###
-### Homepage
+###
+### Synopsis
+###
 ###
 
-The epistemology units in biostatistics include three aspects. 
+The abstraction (forms) includes definition of concepts and shapes smaller module. The model is built by the interaction of major or minor modules. The epistemology and epidemiological methods in statistics include association, classification, and arrangement.
 
-The first is threshold inbetween spaces. This includes classification method to objects and subjects, which is modelling probabilities to exposure and outcome in catelogs or logical catelogs. 
-
-The second is truth by most likely principle. This includes inverse probability weighting, fusion in censored or uncensored data, and misclassification bias.
-
-The third is construction of system by numbers and letters. This abstraction is a linkage to other fields where numbers and letters are also applied with meanings.
+The three aspects are incorporated with methodology advancement, e.g., in causal inference, the inverse probability weighting (parallel space time) is quantifying contribution by an inverse on the probability of presence and named as weights. Another more recent example is in the conversion from numerical measurement on record level to binary response (0/1) on summary level with central theorem as a premise. This rose to binary response and single unit in where model and theory have been constructed has created a reprise and precise in new sequential numerical systems.
 
 
 ###
-### Documents
+###
+### Link
+###
 ###
 
-  * [Biosketch]
-  * [CV]
-  * [Publications]
-  * [ArtBot](http://janeyan.se)
+  * [Bio sketch]
+  * [Artwork](http://janeyan.se)
+  * [Curriculum Vitae]
+
