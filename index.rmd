@@ -14,9 +14,9 @@ knitr::opts_chunk$set(echo = TRUE)
 ###
 ###
 
-The abstraction (forms) includes definition of concepts and shapes smaller module. The model is built by the interaction of major or minor modules. The epistemology and epidemiological methods in statistics include association, classification, and arrangement.
+The abstraction (_forms_) includes definition of concept and shapes of module. The model is built by the interaction of major or minor modules. The epistemology and epidemioloy include association, classification, and arrangement.
 
-The three aspects are incorporated with methodology advancement, e.g., in causal inference, the inverse probability weighting (parallel space time) is quantifying contribution by an inverse on the probability of presence and named as weights. Another more recent example is in the conversion from numerical measurement on record level to binary response (0/1) on summary level with central theorem as a premise. This rose to binary response and single unit in where model and theory have been constructed has created a reprise and precise in new sequential numerical systems.
+These three aspects are the origin of methodology advancement. For example, in causal inference, the inverse probability weighting is measuring the association by arranging the inverse of presence. Another more recent example is on the conversion from numerical data on record level to binary response on summary level with the premise central theorem only. The rose to binary response or single unit, where model and theory have been constructed, create a reprise and precise in new sequence based numerical system.
 
 
 ###
