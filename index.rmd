@@ -1,25 +1,15 @@
 ---
-title: " "
+title: "---"
 output:
   html_document:
-    css: style.css
 ---
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<style>
-body {
-  background-color: #ffffff; 
-}
-</style>
-
-###
-###
 ###
 ### Synopsis
-###
 ###
 
 The abstraction (forms) includes definition of concept and shape of module. The model is built by the interaction of major and minor modules. The epistemology and epidemiology include association, classification, and arrangement.
@@ -27,19 +17,16 @@ The abstraction (forms) includes definition of concept and shape of module. The 
 These three aspects are the origin of methodological advancement. For example, in causal inference, the inverse probability weighting is measuring the association by arranging the inverse of probability. The other more recent example is on the conversion from numerical data on record level to binary response on summary level. The rose to binary response or single unit, where model and theory have been constructed, create a reprise and precise in new sequence based numerical system.
 
 ###
-###
 ### Link
-###
 ###
 
   * [Bio Sketch](biosketch.pdf)
   * [Artwork](http://janeyan.se)
   * [Curriculum Vitae](cv.pdf)
 
-###
+
 ###
 ### Statistics Tool
-###
 ###
 
   * [Analysis of Difference in Catelogue (2025-08-30)](2025-08-30_module_diff-in-catelog.xlsx)
